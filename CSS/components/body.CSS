@@ -1,0 +1,7 @@
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+}
