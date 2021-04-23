@@ -15,23 +15,27 @@
     <link rel="stylesheet" href="CSS/components/body.CSS">
     <link rel="stylesheet" href="CSS/components/header.CSS">
     <link rel="stylesheet" href="CSS/components/banner.CSS">
-    <link rel="stylesheet" href="CSS/components/title.CSS">
+    <link rel="stylesheet" href="CSS/components/main-title.CSS">
     <link rel="stylesheet" href="CSS/components/subtitle.CSS">
     <link rel="stylesheet" href="CSS/components/box.CSS">
     <link rel="stylesheet" href="CSS/components/button.CSS">
     <link rel="stylesheet" href="CSS/components/action.CSS">
     <link rel="stylesheet" href="CSS/components/logo.CSS">
-
+    <link rel="stylesheet" href="CSS/components/section.CSS">
+    <link rel="stylesheet" href="CSS/components/skill-tec.CSS">
+    <link rel="stylesheet" href="CSS/components/wrapper-skill.CSS">
+    <link rel="stylesheet" href="CSS/components/progress-bar.CSS">
+    <link rel="stylesheet" href="CSS/components/card-project.CSS">
 
 </head>
 
 <body>
-    <header class="header">
-        <h1><img class="logo" src="assets/img/logo.png" alt="Logo do site"></h1>
+    <header id="topo" class="header">
+        <img class="logo" src="assets/img/logo.png" alt="Logo do site">
 
         <nav class="navigation">
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
+            <a class="action" href="#Skills" lang="en">Skills</a>
+            <a class="action" href="#Projetos">Projetos</a>
             <a class="action" href="">Sobre</a>
             <a class="action" href="">Contatos</a>
             <a class="button" href="" lang="en">Download CV</a>
@@ -41,8 +45,9 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h2 class="title">Rodrigo Oliveira</h1>
-                        <h3 class="subtitle">Code Learner</h2>
+                    <h2 class="main-title">Rodrigo O.</h1>
+                        <h3 class="subtitle">Code Learner
+                    </h2>
                 </div>
 
                 <div class="navigation">
@@ -51,6 +56,81 @@
                 </div>
             </div>
         </section>
+        <section id="Skills" class="section">
+            <h2 class="main-title -second">Skills</h2>
+
+            <div class="wrapper-skill">
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_html5.png" alt="Logo do HTML5 em pixelart">
+                    <div class="right">
+                        <h3 class="title">HTML</h3>
+                        <progress class="progress-bar" max="100" value="9">9%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_nodejs.png" alt="Logo do NodeJS em pixelart">
+                    <div class="right">
+                        <h3 class="title">NodeJS</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_css3.png" alt="Logo do CSS3 em pixelart">
+                    <div class="right">
+                        <h3 class="title">CSS3</h3>
+                        <progress class="progress-bar" max="100" value="4">4%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_tdd.png" alt="Logo do TDD em pixelart">
+                    <div class="right">
+                        <h3 class="title">TDD</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_js.png" alt="Logo do JavaScript em pixelart">
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_restapi.png" alt="Logo do Rest API em pixelart">
+                    <div class="right">
+                        <h3 class="title">Rest API</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_react.png" alt="Logo do React em pixelart">
+                    <div class="right">
+                        <h3 class="title">React</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_ux.png" alt="Logo do UX em pixelart">
+                    <div class="right">
+                        <h3 class="title">UX</h3>
+                        <progress class="progress-bar" max="100" value="1">1%</progress>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="Projetos" class="section -projects">
+            <h2 class="main-title -third">Projetos</h2>
+            <figure class="projects">
+                <a class="project" href="https://daylightdev.github.io/learning-html/"><img
+                        src="img/project1.png" alt="Projeto 1"></a>
+                <a class="project" href="https://github.com/daylightdev/"><img src="img/project1.png"
+                        alt="Projeto 2"></a>
+                <a class="project" href="https://github.com/daylightdev/learning-html"><img
+                        src="img/project1.png" alt="Projeto 3"></a>
+            </figure>
+        </section>
+
     </section>
 </body>
 

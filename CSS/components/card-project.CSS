@@ -1,0 +1,8 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects .project {
+    box-shadow: 10px 10px 0 #fff;
+}
