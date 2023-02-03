@@ -57,6 +57,9 @@ SOFTWARE.
 // @compatible            safari Safari >= 12.1
 
 // @grant                 GM_getResourceText
+// @grant GM_getValue
+// @grant GM_setValue
+// @grant                GM_registerMenuCommand
 // @noframes
 // ==/UserScript==
 
@@ -69,16 +72,31 @@ function main(){
 
 
 
+// Defines settings as an object
+const config = {
+  defaultTab: GM_getValue("defaultTab", "#tab-videos"),
+  tabNames: {
+    "#tab-info": "Info",
+    "#tab-comments": "Comments",
+    "#tab-videos": "Videos"
+  }
+};
 
+// Create a menu with tab options
+GM_registerMenuCommand("Info", function() {
+  config.defaultTab = "#tab-info";
+  GM_setValue("defaultTab", "#tab-info");
+});
 
+GM_registerMenuCommand("Comments", function() {
+  config.defaultTab = "#tab-comments";
+  GM_setValue("defaultTab", "#tab-comments");
+});
 
-
-
-
-
-
-
-
+GM_registerMenuCommand("Videos", function() {
+  config.defaultTab = "#tab-videos";
+  GM_setValue("defaultTab", "#tab-videos");
+});
 
 
 
@@ -492,7 +510,7 @@ function main(){
 
   const Q = {}
   const settings = {
-    defaultTab: "#tab-videos"
+    defaultTab: GM_getValue("defaultTab", "#tab-videos")
   };
 
   const STORE_VERSION = 1;
