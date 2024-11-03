@@ -6,6 +6,8 @@
 // @author       DayLight
 // @match        https://pt.anotepad.com/
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Transformar Texto em Maiúsculo e Minúsculo.user.js
+// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Transformar Texto em Maiúsculo e Minúsculo.user.js
 // ==/UserScript==
 
 (function() {
