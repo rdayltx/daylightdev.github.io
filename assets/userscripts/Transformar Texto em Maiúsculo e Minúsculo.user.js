@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Transformar Texto em Maiúsculo e Minúsculo
 // @namespace    DayLight Scripts
-// @version      1.3
+// @version      1.4
 // @description  Botões para transformar a primeira linha de texto em maiúsculo ou minúsculo
 // @author       DayLight
 // @match        https://pt.anotepad.com/
@@ -12,7 +12,7 @@
 
 (function() {
     'use strict';
-
+    //  teste
     // Função para criar um botão
     function createButton(label, onClick) {
         const button = document.createElement('button');
