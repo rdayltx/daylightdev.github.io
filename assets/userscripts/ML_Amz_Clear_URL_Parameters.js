@@ -2,6 +2,7 @@
 // @name          ML, Amz. Clear URL Parameters
 // @namespace     Clear URL Parameters
 // @version       2.4
+// @icon          https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/clear_url.ico
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
 //
