@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          ML, Amz. Clear URL Parameters
 // @namespace     Clear URL Parameters
-// @version       2.2
+// @version       2.4
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
 //
