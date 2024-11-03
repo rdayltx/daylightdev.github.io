@@ -6,6 +6,8 @@
 // @author       DayLight
 // @match        *://www.paguemenos.com.br/*
 // @run-at       document-start
+// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Paguemenos Clear URL Parameters.user.js
+// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Paguemenos Clear URL Parameters.user.js
 // ==/UserScript==
 
 (function() {
