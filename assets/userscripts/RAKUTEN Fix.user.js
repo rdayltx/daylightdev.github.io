@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         RAKUTEN Fix
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.5
 // @description  Modifica links selecionados para copiar para a área de transferência
-// @author       DAyLight
+// @author       DayLight
 // @match        https://pt.anotepad.com/
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/RAKUTEN Fix.user.js
+// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/RAKUTEN Fix.user.js
 // ==/UserScript==
 
 (function() {
