@@ -41,8 +41,8 @@
 //
 // @run-at       document-start
 // @grant        none
-// @downloadURL 
-// @updateURL 
+// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/ML_Amz_Clear_URL_Parameters.js
+// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/ML_Amz_Clear_URL_Parameters.js
 // ==/UserScript==
 
 (function() {
