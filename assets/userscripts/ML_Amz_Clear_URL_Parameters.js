@@ -34,7 +34,7 @@
 // @exclude-match https://www.amazon.com.br/myk*
 // @exclude-match https://www.amazon.com.br/b/*
 // @exclude-match https://www.amazon.com.br/gp/*
-// @exclude-match https://www.amazon.com.br/dp/*
+
 // @exclude-match https://www.amazon.com.br/prime*
 // @exclude-match https://www.amazon.com.br/gcx*
 // @exclude-match https://www.amazon.com.br/baby-reg*
@@ -47,7 +47,7 @@
 // @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
 // @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
 // ==/UserScript==
-
+        //  https://www.amazon.com.br/dp/*
 (function() {
     'use strict';
 
