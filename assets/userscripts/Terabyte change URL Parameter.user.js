@@ -7,6 +7,8 @@
 // @match        https://www.terabyteshop.com.br/*
 // @run-at       document-start
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Terabyte change URL Parameter.user.js
+// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/Terabyte change URL Parameter.user.js
 // ==/UserScript==
 
 (function() {
