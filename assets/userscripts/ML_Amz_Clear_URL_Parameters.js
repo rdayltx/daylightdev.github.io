@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name          ML, Amz. Clear URL Parameters
+// @name          ML, Amz. Pm. Clear URL Parameters
 // @namespace     Clear URL Parameters
-// @version       1.3
+// @version       1.5
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
 //
@@ -38,6 +38,9 @@
 // @exclude-match https://www.amazon.com.br/prime*
 // @exclude-match https://www.amazon.com.br/gcx*
 // @exclude-match https://www.amazon.com.br/baby-reg*
+//
+// ============== PAGUEMENOS ==============
+// @match        *://www.paguemenos.com.br/*
 //
 // @run-at       document-start
 // @grant        none
