@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          ML, Amz. Clear URL Parameters
 // @namespace     Clear URL Parameters
-// @version       2.8
+// @version       2.9
 // @icon          https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/clear_url.ico
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
@@ -10,7 +10,7 @@
 // @match         https://www.mercadolivre.com.br/*
 // @match         https://produto.mercadolivre.com.br/*
 // @exclude-match https://www.mercadolivre.com.br/social*
-// exclude-match  https://mercadolivre.com/sec*
+// @exclude-match https://mercadolivre.com/sec*
 // @exclude-match https://www.mercadolivre.com.br/ofertas*
 // @exclude-match https://www.mercadolivre.com.br/cupons*
 // @exclude-match https://www.mercadolivre.com.br/c/*
@@ -27,10 +27,10 @@
 // @exclude-match https://www.mercadolivre.com.br/checkout*
 //
 // ============== MAGAZINE LUIZA ==============
-// @match https://www.magazinevoce.com.br/*
+// @match         https://www.magazinevoce.com.br/*
 //
 // ============== TERABYTE ==============
-// @match        https://www.terabyteshop.com.br/*
+// @match         https://www.terabyteshop.com.br/*
 //
 // ============== AMAZON ==============
 // @match         https://www.amazon.com.br/*
@@ -47,12 +47,12 @@
 // @exclude-match https://www.amazon.com.br/baby-reg*
 //
 // ============== PAGUEMENOS ==============
-// @match        *://www.paguemenos.com.br/*
+// @match         *://www.paguemenos.com.br/*
 //
-// @run-at       document-start
-// @grant        none
-// @downloadURL  https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
-// @updateURL    https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
+// @run-at        document-start
+// @grant         none
+// @downloadURL   https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
+// @updateURL     https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/ML_Amz_Clear_URL_Parameters.js
 // ==/UserScript==
 
 (function() {
