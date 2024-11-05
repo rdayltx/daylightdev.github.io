@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          ML, Amz. Clear URL Parameters
 // @namespace     Clear URL Parameters
-// @version       2.9
+// @version       3.0
 // @icon          https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/clear_url.ico
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
@@ -25,6 +25,9 @@
 // @exclude-match https://www.mercadolivre.com.br/perguntas/*
 // @exclude-match https://www.mercadolivre.com.br/navigation*
 // @exclude-match https://www.mercadolivre.com.br/checkout*
+// @exclude-match https://www.mercadolivre.com.br/protections*
+// @exclude-match https://www.mercadolivre.com.br/listas-de-presentes*
+// @exclude-match https://www.mercadolivre.com.br/meus-alertas*
 //
 // ============== MAGAZINE LUIZA ==============
 // @match         https://www.magazinevoce.com.br/*
