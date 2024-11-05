@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          ML, Amz. Clear URL Parameters
 // @namespace     Clear URL Parameters
-// @version       3.0
+// @version       3.1
 // @icon          https://raw.githubusercontent.com/rdayltx/daylightdev.github.io/refs/heads/master/assets/userscripts/clear_url.ico
 // @description   Remove parâmetros desnecessários de URLs de sites especificos
 // @author        DayLight
